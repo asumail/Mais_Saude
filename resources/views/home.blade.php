@@ -205,16 +205,33 @@
 						</div>
 					</div>
 					<div class="row">
+					<div class="col-lg-3 col-md-3 vol-wrap">
+							<div class="single-con">
+								<div class="content">
+								    <a href="#" target="_blank">
+								      <div class="content-overlay"></div>
+								  		 <img class="content-image img-fluid d-block mx-auto" src="img/Dra. Sandra-Mavale.png" alt="">
+								      	<div class="content-details fadeIn-bottom">
+								      		<h4>Dra. Sandra Mavale</h4>
+								      		<p>
+											  Directora Científica e Pedagógica
+								      		</p>
+								      	</div>
+								    </a>
+								 </div>
+							</div>
+						</div>
+						
 						<div class="col-lg-3 col-md-3 vol-wrap">
 							<div class="single-con">
 								<div class="content">
 								    <a href="#" target="_blank">
 								      <div class="content-overlay"></div>
-								  		 <img class="content-image img-fluid d-block mx-auto" src="img/c1.jpg" alt="">
+								  		 <img class="content-image img-fluid d-block mx-auto" src="img/Dra. Matilde Mabui.jpg" alt="">
 								      	<div class="content-details fadeIn-bottom">
-								      		<h4>Andy Florence</h4>
+								      		<h4>Dra. Matilde Mabui</h4>
 								      		<p>
-								      			inappropriate behavior
+											  Directora de Enfermagem
 								      		</p>
 								      	</div>
 								    </a>
@@ -226,11 +243,11 @@
 								<div class="content">
 								    <a href="#" target="_blank">
 								      <div class="content-overlay"></div>
-								  		 <img class="content-image img-fluid d-block mx-auto" src="img/c2.jpg" alt="">
+								  		 <img class="content-image img-fluid d-block mx-auto" src="img/Dr. Fortunato de Oliveira.jpg" alt="">
 								      	<div class="content-details fadeIn-bottom">
-								      		<h4>Andy Florence</h4>
+								      		<h4>Dr. Fortunato de Oliveira</h4>
 								      		<p>
-								      			inappropriate behavior
+											  Director Administrativo
 								      		</p>
 								      	</div>
 								    </a>
@@ -242,34 +259,18 @@
 								<div class="content">
 								    <a href="#" target="_blank">
 								      <div class="content-overlay"></div>
-								  		 <img class="content-image img-fluid d-block mx-auto" src="img/c3.jpg" alt="">
+								  		 <img class="content-image img-fluid d-block mx-auto" src="img/Dra. Farida Urci.jpg" alt="">
 								      	<div class="content-details fadeIn-bottom">
-								      		<h4>Andy Florence</h4>
+								      		<h4>Dra. Farida Urci</h4>
 								      		<p>
-								      			inappropriate behavior
+											  Directora Clínica
 								      		</p>
 								      	</div>
 								    </a>
 								 </div>
 							</div>
 						</div>
-						<div class="col-lg-3 col-md-3 vol-wrap">
-							<div class="single-con">
-								<div class="content">
-								    <a href="#" target="_blank">
-								      <div class="content-overlay"></div>
-								  		 <img class="content-image img-fluid d-block mx-auto" src="img/c4.jpg" alt="">
-								      	<div class="content-details fadeIn-bottom">
-								      		<h4>Andy Florence</h4>
-								      		<p>
-								      			inappropriate behavior
-								      		</p>
-								      	</div>
-								    </a>
-								 </div>
-							</div>
-						</div>
-
+					
 					</div>
 				</div>
 			</section>
