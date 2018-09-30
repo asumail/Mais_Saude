@@ -29,7 +29,16 @@
 			<link rel="stylesheet" href="css/main.css">
 		</head>
 		<body>
-
+		@if (Route::has('login'))
+                <div class="top-right links">
+                    @auth
+                        <a href="{{ url('/home') }}">Home</a>
+                    @else
+                        <a href="{{ route('login') }}">Login</a>
+                        <a href="{{ route('register') }}">Register</a>
+                    @endauth
+                </div>
+            @endif
 			<!-- Start Header Area -->
 			<header class="default-header">
 				<div class="container">
@@ -45,12 +54,10 @@
 									<a href="#appoinment">Marcação de Consulta</a>
 									<a href="#consultant">Nossos Medicos</a>
                                     <a href="{{ route('home') }}">
-                                            Home
+                                            Login
                                         </a>
 
-                                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                            {{ csrf_field() }}
-                                        </form>
+                            
 								</nav>
 								<div class="menu-bar"><span class="lnr lnr-menu"></span></div>
 							</div>
