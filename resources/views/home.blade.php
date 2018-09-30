@@ -16,10 +16,10 @@
                         <div class="panel-body">
                             <div class="info-box-stats">
                                 <p>10</p>
-                                <span class="info-box-title">Nº de Empresas</span>
+                                <span class="info-box-title">Pacientes Atendidos</span>
                             </div>
                             <div class="info-box-icon">
-                                <i class="fa fa-sitemap"></i>
+                                <i class="fa fa-users"></i>
                             </div>
                             <div class="info-box-progress">
                                 <div class="progress progress-xs progress-squared bs-n">
@@ -36,7 +36,7 @@
                             <div class="info-box-stats">
                                 
                                 <p>15</p>
-                                <span class="info-box-title">Diarios</span>
+                                <span class="info-box-title">Raio-x Feitos</span>
                             </div>
                             <div class="info-box-icon">
                                 <i class="fa fa-book"></i>
@@ -55,8 +55,8 @@
                         <div class="panel-body">
                             <div class="info-box-stats">
                                 
-                                <p>3</p>
-                                <span class="info-box-title">Plano de Contas</span>
+                                <p>75</p>
+                                <span class="info-box-title">Consulta Marcadas</span>
                             </div>
                             <div class="info-box-icon">
                                 <i class="fa fa-calendar"></i>
@@ -76,10 +76,10 @@
                             <div class="info-box-stats">
                                
                                 <p>3</p>
-                                <span class="info-box-title">Lancamentos</span>
+                                <span class="info-box-title">Pacientes em Espera</span>
                             </div>
                             <div class="info-box-icon">
-                                <i class="fa fa-dollar"></i>
+                                <i class="fa fa-users"></i>
                             </div>
                             <div class="info-box-progress">
                                 <div class="progress progress-xs progress-squared bs-n">

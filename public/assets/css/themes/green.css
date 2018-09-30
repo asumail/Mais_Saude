@@ -30,29 +30,29 @@
     color: white;
 }
 
-.menu.accordion-menu > li > a:hover {
-	background: white;
+.menu.accordion-menu>li>a:hover {
+    background: white;
     color: #006DEF;
 }
 
-.menu.accordion-menu > li.active > a,
-.menu.accordion-menu > li.active.open > a {
-	background: white;
+.menu.accordion-menu>li.active>a,
+.menu.accordion-menu>li.active.open>a {
+    background: white;
     color: #006DEF;
 }
 
-.small-sidebar:not(.page-sidebar-fixed) .accordion-menu li.droplink:hover > a,
-.horizontal-bar .accordion-menu > li.droplink:hover > a,
+.small-sidebar:not(.page-sidebar-fixed) .accordion-menu li.droplink:hover>a,
+.horizontal-bar .accordion-menu>li.droplink:hover>a,
 .menu.accordion-menu ul,
-.menu.accordion-menu li.open > a,
-.hover-menu .accordion-menu > li.droplink:hover > a {
+.menu.accordion-menu li.open>a,
+.hover-menu .accordion-menu>li.droplink:hover>a {
     background: #74767d;
     color: whitesmoke;
 }
 
 .menu.accordion-menu ul li a:hover,
 .menu.accordion-menu ul li.active a {
-	background: #006DEF;
+    background: #006DEF;
     color: #ffffff;
 }
 

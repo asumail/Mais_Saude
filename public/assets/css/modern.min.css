@@ -1,26 +1,35 @@
-body, html {
+body,
+html {
     position: relative;
     height: 100% !important
 }
 
-body, p {
+body,
+p {
     font-size: 13px
 }
 
-.btn, :active, :focus, :hover {
+.btn,
+ :active,
+ :focus,
+ :hover {
     outline: 0 !important
 }
 
-.btn-addon i, body, html {
+.btn-addon i,
+body,
+html {
     position: relative
 }
 
-.badge, .navbar .logo-box .logo-text {
+.badge,
+.navbar .logo-box .logo-text {
     text-align: center;
     vertical-align: middle
 }
 
-.messages, .tasks {
+.messages,
+.tasks {
     max-height: 300px
 }
 
@@ -41,7 +50,13 @@ p {
     white-space: normal
 }
 
-.f-thin, h1, h2, h3, h4, h5, h6 {
+.f-thin,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: 300
 }
 
@@ -65,11 +80,14 @@ h5 {
     font-size: 12px
 }
 
-.f-s-10, h6 {
+.f-s-10,
+h6 {
     font-size: 10px
 }
 
-h3, h4, h5 {
+h3,
+h4,
+h5 {
     font-weight: 600
 }
 
@@ -182,7 +200,7 @@ h3, h4, h5 {
 }
 
 .f-green {
-    color: #006DEF
+    color: #b0b0b0
 }
 
 .f-blue {
@@ -194,7 +212,7 @@ h3, h4, h5 {
 }
 
 .f-purple {
-    color: #006DEF
+    color: #b0b0b0
 }
 
 .f-red {
@@ -214,11 +232,11 @@ h3, h4, h5 {
 }
 
 .text-primary {
-    color: #006DEF
+    color: #b0b0b0
 }
 
 .text-success {
-    color: #006DEF
+    color: #b0b0b0
 }
 
 .text-info {
@@ -254,11 +272,11 @@ h3, h4, h5 {
 }
 
 .icon-state-primary {
-    color: #006DEF
+    color: #b0b0b0
 }
 
 .icon-state-success {
-    color: #006DEF
+    color: #b0b0b0
 }
 
 .icon-state-info {
@@ -320,7 +338,7 @@ h3, h4, h5 {
 }
 
 .badge.badge-primary {
-    background: #006DEF;
+    background: #b0b0b0;
     color: #FFF
 }
 
@@ -330,7 +348,7 @@ h3, h4, h5 {
 }
 
 .badge.badge-success {
-    background: #006DEF;
+    background: #b0b0b0;
     color: #FFF
 }
 
@@ -349,7 +367,7 @@ h3, h4, h5 {
     width: 25px
 }
 
-.switch-sm .switchery > small {
+.switch-sm .switchery>small {
     height: 15px;
     width: 15px
 }
@@ -359,7 +377,7 @@ h3, h4, h5 {
     width: 35px
 }
 
-.switch-md .switchery > small {
+.switch-md .switchery>small {
     height: 20px;
     width: 20px
 }
@@ -369,7 +387,7 @@ h3, h4, h5 {
     width: 40px
 }
 
-.switch-lg .switchery > small {
+.switch-lg .switchery>small {
     height: 25px;
     width: 25px
 }
@@ -686,7 +704,7 @@ h3, h4, h5 {
 }
 
 .b-primary {
-    border-color: #006DEF
+    border-color: #b0b0b0
 }
 
 .b-info {
@@ -694,7 +712,7 @@ h3, h4, h5 {
 }
 
 .b-success {
-    border-color: #006DEF
+    border-color: #b0b0b0
 }
 
 .b-warning {
@@ -777,12 +795,29 @@ h3, h4, h5 {
     background: 0 0 !important
 }
 
-.btn-danger.active, .btn-danger:active, .btn-default.active, .btn-default:active, .btn-info.active, .btn-info:active, .btn-primary.active, .btn-primary:active, .btn-success.active, .btn-success:active, .btn-warning.active, .btn-warning:active, .open > .dropdown-toggle.btn-danger, .open > .dropdown-toggle.btn-default, .open > .dropdown-toggle.btn-info, .open > .dropdown-toggle.btn-primary, .open > .dropdown-toggle.btn-success, .open > .dropdown-toggle.btn-warning {
+.btn-danger.active,
+.btn-danger:active,
+.btn-default.active,
+.btn-default:active,
+.btn-info.active,
+.btn-info:active,
+.btn-primary.active,
+.btn-primary:active,
+.btn-success.active,
+.btn-success:active,
+.btn-warning.active,
+.btn-warning:active,
+.open>.dropdown-toggle.btn-danger,
+.open>.dropdown-toggle.btn-default,
+.open>.dropdown-toggle.btn-info,
+.open>.dropdown-toggle.btn-primary,
+.open>.dropdown-toggle.btn-success,
+.open>.dropdown-toggle.btn-warning {
     background-image: none
 }
 
 .bg-primary {
-    background-color: #006DEF;
+    background-color: #b0b0b0;
     color: #fff
 }
 
@@ -797,7 +832,7 @@ h3, h4, h5 {
 }
 
 .bg-success {
-    background-color: #006DEF;
+    background-color: #b0b0b0;
     color: #fff
 }
 
@@ -965,13 +1000,44 @@ h3, h4, h5 {
     border: 1px solid #e5e5e5
 }
 
-.btn-default.active, .btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default.focus, .btn-default:active, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .btn-default:focus, .btn-default:hover, .open > .dropdown-toggle.btn-default, .open > .dropdown-toggle.btn-default.focus, .open > .dropdown-toggle.btn-default:focus, .open > .dropdown-toggle.btn-default:hover {
+.btn-default.active,
+.btn-default.active.focus,
+.btn-default.active:focus,
+.btn-default.active:hover,
+.btn-default.focus,
+.btn-default:active,
+.btn-default:active.focus,
+.btn-default:active:focus,
+.btn-default:active:hover,
+.btn-default:focus,
+.btn-default:hover,
+.open>.dropdown-toggle.btn-default,
+.open>.dropdown-toggle.btn-default.focus,
+.open>.dropdown-toggle.btn-default:focus,
+.open>.dropdown-toggle.btn-default:hover {
     color: #333;
     background-color: #f1f1f1;
     border-color: #e5e5e5
 }
 
-.btn-default.disabled, .btn-default.disabled.active, .btn-default.disabled.focus, .btn-default.disabled:active, .btn-default.disabled:focus, .btn-default.disabled:hover, .btn-default[disabled], .btn-default[disabled].active, .btn-default[disabled].focus, .btn-default[disabled]:active, .btn-default[disabled]:focus, .btn-default[disabled]:hover, fieldset[disabled] .btn-default, fieldset[disabled] .btn-default.active, fieldset[disabled] .btn-default.focus, fieldset[disabled] .btn-default:active, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default:hover {
+.btn-default.disabled,
+.btn-default.disabled.active,
+.btn-default.disabled.focus,
+.btn-default.disabled:active,
+.btn-default.disabled:focus,
+.btn-default.disabled:hover,
+.btn-default[disabled],
+.btn-default[disabled].active,
+.btn-default[disabled].focus,
+.btn-default[disabled]:active,
+.btn-default[disabled]:focus,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default,
+fieldset[disabled] .btn-default.active,
+fieldset[disabled] .btn-default.focus,
+fieldset[disabled] .btn-default:active,
+fieldset[disabled] .btn-default:focus,
+fieldset[disabled] .btn-default:hover {
     background-color: #fff;
     border-color: #ccc
 }
@@ -983,17 +1049,48 @@ h3, h4, h5 {
 
 .btn-primary {
     color: #fff;
-    background-color: #006DEF;
+    background-color: #b0b0b0;
     border-color: transparent
 }
 
-.btn-primary.active, .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary.focus, .btn-primary:active, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .btn-primary:focus, .btn-primary:hover, .open > .dropdown-toggle.btn-primary, .open > .dropdown-toggle.btn-primary.focus, .open > .dropdown-toggle.btn-primary:focus, .open > .dropdown-toggle.btn-primary:hover {
+.btn-primary.active,
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary:active.focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.btn-primary:focus,
+.btn-primary:hover,
+.open>.dropdown-toggle.btn-primary,
+.open>.dropdown-toggle.btn-primary.focus,
+.open>.dropdown-toggle.btn-primary:focus,
+.open>.dropdown-toggle.btn-primary:hover {
     color: #fff;
     background-color: #6a5fac;
     border-color: transparent
 }
 
-.btn-primary.disabled, .btn-primary.disabled.active, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled], .btn-primary[disabled].active, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary.active, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:hover {
+.btn-primary.disabled,
+.btn-primary.disabled.active,
+.btn-primary.disabled.focus,
+.btn-primary.disabled:active,
+.btn-primary.disabled:focus,
+.btn-primary.disabled:hover,
+.btn-primary[disabled],
+.btn-primary[disabled].active,
+.btn-primary[disabled].focus,
+.btn-primary[disabled]:active,
+.btn-primary[disabled]:focus,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary,
+fieldset[disabled] .btn-primary.active,
+fieldset[disabled] .btn-primary.focus,
+fieldset[disabled] .btn-primary:active,
+fieldset[disabled] .btn-primary:focus,
+fieldset[disabled] .btn-primary:hover {
     background-color: #6a5fac;
     border-color: transparent
 }
@@ -1005,17 +1102,48 @@ h3, h4, h5 {
 
 .btn-success {
     color: #fff;
-    background-color: #006DEF;
+    background-color: #b0b0b0;
     border-color: transparent
 }
 
-.btn-success.active, .btn-success.active.focus, .btn-success.active:focus, .btn-success.active:hover, .btn-success.focus, .btn-success:active, .btn-success:active.focus, .btn-success:active:focus, .btn-success:active:hover, .btn-success:focus, .btn-success:hover, .open > .dropdown-toggle.btn-success, .open > .dropdown-toggle.btn-success.focus, .open > .dropdown-toggle.btn-success:focus, .open > .dropdown-toggle.btn-success:hover {
+.btn-success.active,
+.btn-success.active.focus,
+.btn-success.active:focus,
+.btn-success.active:hover,
+.btn-success.focus,
+.btn-success:active,
+.btn-success:active.focus,
+.btn-success:active:focus,
+.btn-success:active:hover,
+.btn-success:focus,
+.btn-success:hover,
+.open>.dropdown-toggle.btn-success,
+.open>.dropdown-toggle.btn-success.focus,
+.open>.dropdown-toggle.btn-success:focus,
+.open>.dropdown-toggle.btn-success:hover {
     color: #fff;
-    background-color: #006DEF;
+    background-color: #b0b0b0;
     border-color: transparent
 }
 
-.btn-success.disabled, .btn-success.disabled.active, .btn-success.disabled.focus, .btn-success.disabled:active, .btn-success.disabled:focus, .btn-success.disabled:hover, .btn-success[disabled], .btn-success[disabled].active, .btn-success[disabled].focus, .btn-success[disabled]:active, .btn-success[disabled]:focus, .btn-success[disabled]:hover, fieldset[disabled] .btn-success, fieldset[disabled] .btn-success.active, fieldset[disabled] .btn-success.focus, fieldset[disabled] .btn-success:active, fieldset[disabled] .btn-success:focus, fieldset[disabled] .btn-success:hover {
+.btn-success.disabled,
+.btn-success.disabled.active,
+.btn-success.disabled.focus,
+.btn-success.disabled:active,
+.btn-success.disabled:focus,
+.btn-success.disabled:hover,
+.btn-success[disabled],
+.btn-success[disabled].active,
+.btn-success[disabled].focus,
+.btn-success[disabled]:active,
+.btn-success[disabled]:focus,
+.btn-success[disabled]:hover,
+fieldset[disabled] .btn-success,
+fieldset[disabled] .btn-success.active,
+fieldset[disabled] .btn-success.focus,
+fieldset[disabled] .btn-success:active,
+fieldset[disabled] .btn-success:focus,
+fieldset[disabled] .btn-success:hover {
     background-color: #1DB198;
     border-color: transparent
 }
@@ -1031,13 +1159,44 @@ h3, h4, h5 {
     border-color: transparent
 }
 
-.btn-info.active, .btn-info.active.focus, .btn-info.active:focus, .btn-info.active:hover, .btn-info.focus, .btn-info:active, .btn-info:active.focus, .btn-info:active:focus, .btn-info:active:hover, .btn-info:focus, .btn-info:hover, .open > .dropdown-toggle.btn-info, .open > .dropdown-toggle.btn-info.focus, .open > .dropdown-toggle.btn-info:focus, .open > .dropdown-toggle.btn-info:hover {
+.btn-info.active,
+.btn-info.active.focus,
+.btn-info.active:focus,
+.btn-info.active:hover,
+.btn-info.focus,
+.btn-info:active,
+.btn-info:active.focus,
+.btn-info:active:focus,
+.btn-info:active:hover,
+.btn-info:focus,
+.btn-info:hover,
+.open>.dropdown-toggle.btn-info,
+.open>.dropdown-toggle.btn-info.focus,
+.open>.dropdown-toggle.btn-info:focus,
+.open>.dropdown-toggle.btn-info:hover {
     color: #fff;
     background-color: #08A7C3;
     border-color: transparent
 }
 
-.btn-info.disabled, .btn-info.disabled.active, .btn-info.disabled.focus, .btn-info.disabled:active, .btn-info.disabled:focus, .btn-info.disabled:hover, .btn-info[disabled], .btn-info[disabled].active, .btn-info[disabled].focus, .btn-info[disabled]:active, .btn-info[disabled]:focus, .btn-info[disabled]:hover, fieldset[disabled] .btn-info, fieldset[disabled] .btn-info.active, fieldset[disabled] .btn-info.focus, fieldset[disabled] .btn-info:active, fieldset[disabled] .btn-info:focus, fieldset[disabled] .btn-info:hover {
+.btn-info.disabled,
+.btn-info.disabled.active,
+.btn-info.disabled.focus,
+.btn-info.disabled:active,
+.btn-info.disabled:focus,
+.btn-info.disabled:hover,
+.btn-info[disabled],
+.btn-info[disabled].active,
+.btn-info[disabled].focus,
+.btn-info[disabled]:active,
+.btn-info[disabled]:focus,
+.btn-info[disabled]:hover,
+fieldset[disabled] .btn-info,
+fieldset[disabled] .btn-info.active,
+fieldset[disabled] .btn-info.focus,
+fieldset[disabled] .btn-info:active,
+fieldset[disabled] .btn-info:focus,
+fieldset[disabled] .btn-info:hover {
     background-color: #08A7C3;
     border-color: transparent
 }
@@ -1053,13 +1212,44 @@ h3, h4, h5 {
     border-color: transparent
 }
 
-.btn-warning.active, .btn-warning.active.focus, .btn-warning.active:focus, .btn-warning.active:hover, .btn-warning.focus, .btn-warning:active, .btn-warning:active.focus, .btn-warning:active:focus, .btn-warning:active:hover, .btn-warning:focus, .btn-warning:hover, .open > .dropdown-toggle.btn-warning, .open > .dropdown-toggle.btn-warning.focus, .open > .dropdown-toggle.btn-warning:focus, .open > .dropdown-toggle.btn-warning:hover {
+.btn-warning.active,
+.btn-warning.active.focus,
+.btn-warning.active:focus,
+.btn-warning.active:hover,
+.btn-warning.focus,
+.btn-warning:active,
+.btn-warning:active.focus,
+.btn-warning:active:focus,
+.btn-warning:active:hover,
+.btn-warning:focus,
+.btn-warning:hover,
+.open>.dropdown-toggle.btn-warning,
+.open>.dropdown-toggle.btn-warning.focus,
+.open>.dropdown-toggle.btn-warning:focus,
+.open>.dropdown-toggle.btn-warning:hover {
     color: #fff;
     background-color: #e8bf40;
     border-color: transparent
 }
 
-.btn-warning.disabled, .btn-warning.disabled.active, .btn-warning.disabled.focus, .btn-warning.disabled:active, .btn-warning.disabled:focus, .btn-warning.disabled:hover, .btn-warning[disabled], .btn-warning[disabled].active, .btn-warning[disabled].focus, .btn-warning[disabled]:active, .btn-warning[disabled]:focus, .btn-warning[disabled]:hover, fieldset[disabled] .btn-warning, fieldset[disabled] .btn-warning.active, fieldset[disabled] .btn-warning.focus, fieldset[disabled] .btn-warning:active, fieldset[disabled] .btn-warning:focus, fieldset[disabled] .btn-warning:hover {
+.btn-warning.disabled,
+.btn-warning.disabled.active,
+.btn-warning.disabled.focus,
+.btn-warning.disabled:active,
+.btn-warning.disabled:focus,
+.btn-warning.disabled:hover,
+.btn-warning[disabled],
+.btn-warning[disabled].active,
+.btn-warning[disabled].focus,
+.btn-warning[disabled]:active,
+.btn-warning[disabled]:focus,
+.btn-warning[disabled]:hover,
+fieldset[disabled] .btn-warning,
+fieldset[disabled] .btn-warning.active,
+fieldset[disabled] .btn-warning.focus,
+fieldset[disabled] .btn-warning:active,
+fieldset[disabled] .btn-warning:focus,
+fieldset[disabled] .btn-warning:hover {
     background-color: #e8bf40;
     border-color: transparent
 }
@@ -1075,13 +1265,44 @@ h3, h4, h5 {
     border-color: transparent
 }
 
-.btn-danger.active, .btn-danger.active.focus, .btn-danger.active:focus, .btn-danger.active:hover, .btn-danger.focus, .btn-danger:active, .btn-danger:active.focus, .btn-danger:active:focus, .btn-danger:active:hover, .btn-danger:focus, .btn-danger:hover, .open > .dropdown-toggle.btn-danger, .open > .dropdown-toggle.btn-danger.focus, .open > .dropdown-toggle.btn-danger:focus, .open > .dropdown-toggle.btn-danger:hover {
+.btn-danger.active,
+.btn-danger.active.focus,
+.btn-danger.active:focus,
+.btn-danger.active:hover,
+.btn-danger.focus,
+.btn-danger:active,
+.btn-danger:active.focus,
+.btn-danger:active:focus,
+.btn-danger:active:hover,
+.btn-danger:focus,
+.btn-danger:hover,
+.open>.dropdown-toggle.btn-danger,
+.open>.dropdown-toggle.btn-danger.focus,
+.open>.dropdown-toggle.btn-danger:focus,
+.open>.dropdown-toggle.btn-danger:hover {
     color: #fff;
     background-color: #e14444;
     border-color: transparent
 }
 
-.btn-danger.disabled, .btn-danger.disabled.active, .btn-danger.disabled.focus, .btn-danger.disabled:active, .btn-danger.disabled:focus, .btn-danger.disabled:hover, .btn-danger[disabled], .btn-danger[disabled].active, .btn-danger[disabled].focus, .btn-danger[disabled]:active, .btn-danger[disabled]:focus, .btn-danger[disabled]:hover, fieldset[disabled] .btn-danger, fieldset[disabled] .btn-danger.active, fieldset[disabled] .btn-danger.focus, fieldset[disabled] .btn-danger:active, fieldset[disabled] .btn-danger:focus, fieldset[disabled] .btn-danger:hover {
+.btn-danger.disabled,
+.btn-danger.disabled.active,
+.btn-danger.disabled.focus,
+.btn-danger.disabled:active,
+.btn-danger.disabled:focus,
+.btn-danger.disabled:hover,
+.btn-danger[disabled],
+.btn-danger[disabled].active,
+.btn-danger[disabled].focus,
+.btn-danger[disabled]:active,
+.btn-danger[disabled]:focus,
+.btn-danger[disabled]:hover,
+fieldset[disabled] .btn-danger,
+fieldset[disabled] .btn-danger.active,
+fieldset[disabled] .btn-danger.focus,
+fieldset[disabled] .btn-danger:active,
+fieldset[disabled] .btn-danger:focus,
+fieldset[disabled] .btn-danger:hover {
     background-color: #e14444;
     border-color: transparent
 }
@@ -1096,7 +1317,9 @@ h3, h4, h5 {
     color: #fff
 }
 
-.btn-facebook:active, .btn-facebook:focus, .btn-facebook:hover {
+.btn-facebook:active,
+.btn-facebook:focus,
+.btn-facebook:hover {
     background: #3B5998;
     color: #fff
 }
@@ -1106,7 +1329,9 @@ h3, h4, h5 {
     color: #fff
 }
 
-.btn-twitter:active, .btn-twitter:focus, .btn-twitter:hover {
+.btn-twitter:active,
+.btn-twitter:focus,
+.btn-twitter:hover {
     background: #00ABF0;
     color: #fff
 }
@@ -1116,7 +1341,9 @@ h3, h4, h5 {
     color: #fff
 }
 
-.btn-google:active, .btn-google:focus, .btn-google:hover {
+.btn-google:active,
+.btn-google:focus,
+.btn-google:hover {
     background: #D95232;
     color: #fff
 }
@@ -1126,7 +1353,9 @@ h3, h4, h5 {
     color: #fff
 }
 
-.btn-youtube:active, .btn-youtube:focus, .btn-youtube:hover {
+.btn-youtube:active,
+.btn-youtube:focus,
+.btn-youtube:hover {
     background: #CC181E;
     color: #fff
 }
@@ -1136,7 +1365,9 @@ h3, h4, h5 {
     color: #fff
 }
 
-.btn-vimeo:active, .btn-vimeo:focus, .btn-vimeo:hover {
+.btn-vimeo:active,
+.btn-vimeo:focus,
+.btn-vimeo:hover {
     background: #4BF;
     color: #fff
 }
@@ -1146,7 +1377,9 @@ h3, h4, h5 {
     color: #fff
 }
 
-.btn-dribbble:active, .btn-dribbble:focus, .btn-dribbble:hover {
+.btn-dribbble:active,
+.btn-dribbble:focus,
+.btn-dribbble:hover {
     background: #D97AA5;
     color: #fff
 }
@@ -1156,7 +1389,9 @@ h3, h4, h5 {
     color: #fff
 }
 
-.btn-github:active, .btn-github:focus, .btn-github:hover {
+.btn-github:active,
+.btn-github:focus,
+.btn-github:hover {
     background: #666;
     color: #fff
 }
@@ -1166,7 +1401,9 @@ h3, h4, h5 {
     color: #fff
 }
 
-.btn-instagram:active, .btn-instagram:focus, .btn-instagram:hover {
+.btn-instagram:active,
+.btn-instagram:focus,
+.btn-instagram:hover {
     background: #3F729B;
     color: #fff
 }
@@ -1176,7 +1413,9 @@ h3, h4, h5 {
     color: #fff
 }
 
-.btn-pinterest:active, .btn-pinterest:focus, .btn-pinterest:hover {
+.btn-pinterest:active,
+.btn-pinterest:focus,
+.btn-pinterest:hover {
     background: #AE181F;
     color: #fff
 }
@@ -1186,7 +1425,9 @@ h3, h4, h5 {
     color: #fff
 }
 
-.btn-vk:active, .btn-vk:focus, .btn-vk:hover {
+.btn-vk:active,
+.btn-vk:focus,
+.btn-vk:hover {
     background: #5D83AA;
     color: #fff
 }
@@ -1196,7 +1437,9 @@ h3, h4, h5 {
     color: #fff
 }
 
-.btn-rss:active, .btn-rss:focus, .btn-rss:hover {
+.btn-rss:active,
+.btn-rss:focus,
+.btn-rss:hover {
     background: #EE802F;
     color: #fff
 }
@@ -1206,7 +1449,9 @@ h3, h4, h5 {
     color: #fff
 }
 
-.btn-flickr:active, .btn-flickr:focus, .btn-flickr:hover {
+.btn-flickr:active,
+.btn-flickr:focus,
+.btn-flickr:hover {
     background: #007BB6;
     color: #fff
 }
@@ -1315,12 +1560,11 @@ h3, h4, h5 {
 }
 
 @media (min-width: 768px) {
-    .panel > .row > div:first-child {
+    .panel>.row>div:first-child {
         padding-left: 15px;
         padding-right: 0
     }
-
-    .panel > .row > div:last-child {
+    .panel>.row>div:last-child {
         padding-left: 0;
         padding-right: 15px
     }
@@ -1373,7 +1617,7 @@ h3, h4, h5 {
     border-bottom-right-radius: 0
 }
 
-.panel .panel-heading + .panel-body {
+.panel .panel-heading+.panel-body {
     padding: 0 20px 20px
 }
 
@@ -1391,7 +1635,7 @@ h3, h4, h5 {
 }
 
 .panel-primary .panel-heading {
-    background: #006DEF;
+    background: #b0b0b0;
     color: #fff
 }
 
@@ -1404,7 +1648,7 @@ h3, h4, h5 {
 }
 
 .panel-success .panel-heading {
-    background: #006DEF;
+    background: #b0b0b0;
     color: #fff
 }
 
@@ -1460,7 +1704,8 @@ h3, h4, h5 {
     box-shadow: none
 }
 
-.panel-transparent, .well {
+.panel-transparent,
+.well {
     -webkit-box-shadow: none;
     -moz-box-shadow: none
 }
@@ -1486,10 +1731,12 @@ h3, h4, h5 {
 }
 
 .panel-purple {
-    background: #006DEF
+    background: #b0b0b0
 }
 
-.panel-purple .panel-body, .panel-purple .panel-heading, .panel-purple .panel-heading .panel-control a {
+.panel-purple .panel-body,
+.panel-purple .panel-heading,
+.panel-purple .panel-heading .panel-control a {
     color: #fff
 }
 
@@ -1498,10 +1745,12 @@ h3, h4, h5 {
 }
 
 .panel-green {
-    background: #006DEF
+    background: #b0b0b0
 }
 
-.panel-green .panel-body, .panel-green .panel-heading, .panel-green .panel-heading .panel-control a {
+.panel-green .panel-body,
+.panel-green .panel-heading,
+.panel-green .panel-heading .panel-control a {
     color: #fff
 }
 
@@ -1513,7 +1762,9 @@ h3, h4, h5 {
     background: #12AFCB
 }
 
-.panel-blue .panel-body, .panel-blue .panel-heading, .panel-blue .panel-heading .panel-control a {
+.panel-blue .panel-body,
+.panel-blue .panel-heading,
+.panel-blue .panel-heading .panel-control a {
     color: #fff
 }
 
@@ -1525,7 +1776,9 @@ h3, h4, h5 {
     background: #f6d433
 }
 
-.panel-yellow .panel-body, .panel-yellow .panel-heading, .panel-yellow .panel-heading .panel-control a {
+.panel-yellow .panel-body,
+.panel-yellow .panel-heading,
+.panel-yellow .panel-heading .panel-control a {
     color: #fff
 }
 
@@ -1537,7 +1790,9 @@ h3, h4, h5 {
     background: #f25656
 }
 
-.panel-red .panel-body, .panel-red .panel-heading, .panel-red .panel-heading .panel-control a {
+.panel-red .panel-body,
+.panel-red .panel-heading,
+.panel-red .panel-heading .panel-control a {
     color: #fff
 }
 
@@ -1580,7 +1835,8 @@ h3, h4, h5 {
     font-weight: 600
 }
 
-.modal-body, .modal-footer {
+.modal-body,
+.modal-footer {
     position: relative;
     padding: 20px;
     border-bottom-left-radius: 0;
@@ -1591,7 +1847,8 @@ h3, h4, h5 {
     border: 0
 }
 
-.modal-body + .modal-footer, .modal-header + .modal-body {
+.modal-body+.modal-footer,
+.modal-header+.modal-body {
     padding: 0 20px 20px
 }
 
@@ -1604,13 +1861,18 @@ h3, h4, h5 {
     z-index: 999
 }
 
-.pagination > li > a {
+.pagination>li>a {
     color: #5B5B5B
 }
 
-.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
-    background: #006DEF;
-    border-color: #006DEF
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+    background: #b0b0b0;
+    border-color: #b0b0b0
 }
 
 .progress {
@@ -1638,11 +1900,11 @@ h3, h4, h5 {
 }
 
 .progress-bar {
-    background-color: #006DEF
+    background-color: #b0b0b0
 }
 
 .progress-bar-success {
-    background-color: #006DEF
+    background-color: #b0b0b0
 }
 
 .progress-bar-info {
@@ -1662,125 +1924,147 @@ h3, h4, h5 {
     background: #fff
 }
 
-.nav-tabs > li > a {
+.nav-tabs>li>a {
     border-radius: 0 !important;
     color: #777;
     border-bottom: 1px solid #DDD
 }
 
-.nav-tabs > li > a:hover {
+.nav-tabs>li>a:hover {
     background: #f1f1f1
 }
 
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
     color: #555;
     cursor: default;
     background-color: #fff;
     border-bottom-color: #fff
 }
 
-.nav-pills > li > a {
+.nav-pills>li>a {
     color: #777;
     border-radius: 0 !important
 }
 
-.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
     color: #fff;
-    background-color: #006DEF
+    background-color: #b0b0b0
 }
 
-.tabs-below > .nav-tabs, .tabs-left > .nav-tabs, .tabs-right > .nav-tabs {
+.tabs-below>.nav-tabs,
+.tabs-left>.nav-tabs,
+.tabs-right>.nav-tabs {
     border-bottom: 0
 }
 
-.pill-content > .pill-pane, .tab-content > .tab-pane {
+.pill-content>.pill-pane,
+.tab-content>.tab-pane {
     display: none
 }
 
-.center, .controls label, .display-block, .pill-content > .active, .tab-content > .active {
+.center,
+.controls label,
+.display-block,
+.pill-content>.active,
+.tab-content>.active {
     display: block
 }
 
-.tabs-below > .nav-tabs {
+.tabs-below>.nav-tabs {
     border-top: 1px solid #ddd
 }
 
-.tabs-below > .nav-tabs > li {
+.tabs-below>.nav-tabs>li {
     margin-top: -1px;
     margin-bottom: 0
 }
 
-.tabs-below > .nav-tabs > li > a {
+.tabs-below>.nav-tabs>li>a {
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0
 }
 
-.tabs-below > .nav-tabs > li > a:focus, .tabs-below > .nav-tabs > li > a:hover {
+.tabs-below>.nav-tabs>li>a:focus,
+.tabs-below>.nav-tabs>li>a:hover {
     border-top-color: #ddd;
     border-bottom-color: transparent
 }
 
-.tabs-below > .nav-tabs > .active > a, .tabs-below > .nav-tabs > .active > a:focus, .tabs-below > .nav-tabs > .active > a:hover {
+.tabs-below>.nav-tabs>.active>a,
+.tabs-below>.nav-tabs>.active>a:focus,
+.tabs-below>.nav-tabs>.active>a:hover {
     border-color: #fff #ddd #ddd
 }
 
-.tabs-left > .nav-tabs > li, .tabs-right > .nav-tabs > li {
+.tabs-left>.nav-tabs>li,
+.tabs-right>.nav-tabs>li {
     float: none
 }
 
-.tabs-left > .nav-tabs > li > a, .tabs-right > .nav-tabs > li > a {
+.tabs-left>.nav-tabs>li>a,
+.tabs-right>.nav-tabs>li>a {
     min-width: 74px;
     margin-right: 0;
     margin-bottom: 3px;
     border-bottom: 0
 }
 
-.tabs-left > .nav-tabs {
+.tabs-left>.nav-tabs {
     float: left;
     margin-right: 19px;
     border-right: 1px solid #ddd
 }
 
-.tabs-left > .nav-tabs > li > a {
+.tabs-left>.nav-tabs>li>a {
     margin-right: -1px;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0
 }
 
-.tabs-left > .nav-tabs > li > a:focus, .tabs-left > .nav-tabs > li > a:hover {
+.tabs-left>.nav-tabs>li>a:focus,
+.tabs-left>.nav-tabs>li>a:hover {
     border-color: #eee #ddd #eee #eee
 }
 
-.tabs-left > .nav-tabs .active > a, .tabs-left > .nav-tabs .active > a:focus, .tabs-left > .nav-tabs .active > a:hover {
+.tabs-left>.nav-tabs .active>a,
+.tabs-left>.nav-tabs .active>a:focus,
+.tabs-left>.nav-tabs .active>a:hover {
     border-color: #ddd #fff #ddd #ddd;
     border-bottom: 1px solid #DDD
 }
 
-.tabs-right > .nav-tabs {
+.tabs-right>.nav-tabs {
     float: right;
     margin-left: 19px;
     border-left: 1px solid #ddd
 }
 
-.tabs-right > .nav-tabs > li > a {
+.tabs-right>.nav-tabs>li>a {
     margin-left: -1px;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0
 }
 
-.tabs-right > .nav-tabs > li > a:focus, .tabs-right > .nav-tabs > li > a:hover {
+.tabs-right>.nav-tabs>li>a:focus,
+.tabs-right>.nav-tabs>li>a:hover {
     border-color: #eee #eee #eee #ddd
 }
 
-.tabs-right > .nav-tabs .active > a, .tabs-right > .nav-tabs .active > a:focus, .tabs-right > .nav-tabs .active > a:hover {
+.tabs-right>.nav-tabs .active>a,
+.tabs-right>.nav-tabs .active>a:focus,
+.tabs-right>.nav-tabs .active>a:hover {
     border-color: #ddd #ddd #ddd #fff;
     border-bottom: 1px solid #DDD
 }
 
-.panel-group .panel-heading .panel-title > a {
+.panel-group .panel-heading .panel-title>a {
     font-size: 14px;
     text-decoration: none
 }
@@ -1791,7 +2075,7 @@ h3, h4, h5 {
     border-bottom: 0 !important
 }
 
-.panel > .panel-heading + .panel-collapse > .panel-body {
+.panel>.panel-heading+.panel-collapse>.panel-body {
     border-top-color: transparent
 }
 
@@ -1800,7 +2084,8 @@ h3, h4, h5 {
     width: 100%
 }
 
-.jstree-default .jstree-clicked, .jstree-default li a:hover {
+.jstree-default .jstree-clicked,
+.jstree-default li a:hover {
     background: #f1f1f1;
     border-radius: 0;
     box-shadow: inset 0 0 1px #999
@@ -1812,11 +2097,11 @@ h3, h4, h5 {
 }
 
 .label.label-success {
-    background: #006DEF
+    background: #b0b0b0
 }
 
 .label.label-primary {
-    background: #006DEF
+    background: #b0b0b0
 }
 
 .label.label-info {
@@ -1863,12 +2148,14 @@ input[disabled] {
     margin-bottom: 5px
 }
 
-.form-group.has-error .form-control, .form-group.has-success .form-control, .form-group.has-warning .form-control {
+.form-group.has-error .form-control,
+.form-group.has-success .form-control,
+.form-group.has-warning .form-control {
     box-shadow: none
 }
 
 .form-group.has-success .form-control:focus {
-    border: 1px solid #006DEF;
+    border: 1px solid #b0b0b0;
     background: #fff
 }
 
@@ -1883,7 +2170,7 @@ input[disabled] {
 }
 
 .form-group.has-success label {
-    color: #006DEF
+    color: #b0b0b0
 }
 
 .form-group.has-warning label {
@@ -1910,7 +2197,8 @@ input.form-control.input-rounded {
     padding: 7px 12px
 }
 
-.select2-dropdown, .select2-selection {
+.select2-dropdown,
+.select2-selection {
     box-shadow: none !important;
     padding: 6px 10px !important
 }
@@ -1940,7 +2228,8 @@ ol.linenums {
     z-index: 9999
 }
 
-.bootstrap-tagsinput, .select2-dropdown {
+.bootstrap-tagsinput,
+.select2-dropdown {
     font-size: 13px;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
@@ -1958,12 +2247,14 @@ ol.linenums {
     border: 1px solid #ccc !important
 }
 
-.select2-container--default .select2-selection--multiple .select2-selection__rendered, .select2-container--default .select2-selection--single .select2-selection__rendered {
+.select2-container--default .select2-selection--multiple .select2-selection__rendered,
+.select2-container--default .select2-selection--single .select2-selection__rendered {
     line-height: inherit !important;
     padding: 0 !important
 }
 
-.select2-container .select2-search--inline .select2-search__field, .select2-container--default .select2-selection--multiple .select2-selection__choice {
+.select2-container .select2-search--inline .select2-search__field,
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
     margin-top: 0 !important
 }
 
@@ -1978,23 +2269,25 @@ ol.linenums {
     border-radius: 0
 }
 
-.popover.top > .arrow {
+.popover.top>.arrow {
     border-top-color: #ebebeb
 }
 
-.popover.left > .arrow {
+.popover.left>.arrow {
     border-left-color: #ebebeb
 }
 
-.popover.right > .arrow {
+.popover.right>.arrow {
     border-right-color: #ebebeb
 }
 
-.popover.bottom > .arrow {
+.popover.bottom>.arrow {
     border-bottom-color: #ebebeb
 }
 
-.input-group-lg > .form-control, .input-group-lg > .input-group-addon, .input-group-lg > .input-group-btn > .btn {
+.input-group-lg>.form-control,
+.input-group-lg>.input-group-addon,
+.input-group-lg>.input-group-btn>.btn {
     border-radius: 0 !important
 }
 
@@ -2027,7 +2320,9 @@ ol.linenums {
     width: 45px !important
 }
 
-.bootstrap-timepicker-widget input, .dataTables_wrapper .dataTables_filter input, .dataTables_wrapper .dataTables_length select {
+.bootstrap-timepicker-widget input,
+.dataTables_wrapper .dataTables_filter input,
+.dataTables_wrapper .dataTables_length select {
     background: #fff;
     box-shadow: none !important;
     font-size: 13px;
@@ -2057,11 +2352,18 @@ ol.linenums {
     text-decoration: none
 }
 
-.table td, .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+.table td,
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
     padding: 15px !important
 }
 
-.dataTables_wrapper .dataTables_filter input, .dataTables_wrapper .dataTables_length select {
+.dataTables_wrapper .dataTables_filter input,
+.dataTables_wrapper .dataTables_length select {
     border-radius: 0;
     border: 1px solid #dce1e4;
     padding: 6px 10px !important;
@@ -2078,20 +2380,24 @@ ol.linenums {
     outline: 0
 }
 
-.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
     color: #fff !important;
     border: 1px solid #ebebeb;
     background: #f1f1f1 !important
 }
 
-.dataTables_wrapper .dataTables_paginate .paginate_button:active, .dataTables_wrapper .dataTables_paginate .paginate_button:focus, .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+.dataTables_wrapper .dataTables_paginate .paginate_button:active,
+.dataTables_wrapper .dataTables_paginate .paginate_button:focus,
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
     color: #fff !important;
     border: 1px solid transparent;
     background: #000000 !important;
     box-shadow: none
 }
 
-tr.group, tr.group:hover {
+tr.group,
+tr.group:hover {
     background-color: #ddd !important
 }
 
@@ -2110,7 +2416,8 @@ tr.group, tr.group:hover {
     padding: 10px
 }
 
-.note-popover .popover .popover-content > .btn-group, .note-toolbar > .btn-group {
+.note-popover .popover .popover-content>.btn-group,
+.note-toolbar>.btn-group {
     margin-top: 0
 }
 
@@ -2120,7 +2427,8 @@ tr.group, tr.group:hover {
     outline: 0
 }
 
-.colorpicker, .datepicker {
+.colorpicker,
+.datepicker {
     padding: 10px !important
 }
 
@@ -2159,17 +2467,59 @@ tr.group, tr.group:hover {
     box-shadow: 0 5px 5px -5px rgba(0, 0, 0, .1) !important
 }
 
-.datepicker table tr td, .datepicker table tr td span, .datepicker table tr th {
+.datepicker table tr td,
+.datepicker table tr td span,
+.datepicker table tr th {
     border-radius: 0 !important
 }
 
-.datepicker table tr td span.active.active, .datepicker table tr td span.active.disabled.active, .datepicker table tr td span.active.disabled:active, .datepicker table tr td span.active.disabled:focus, .datepicker table tr td span.active.disabled:hover, .datepicker table tr td span.active.disabled:hover.active, .datepicker table tr td span.active.disabled:hover:active, .datepicker table tr td span.active.disabled:hover:focus, .datepicker table tr td span.active.disabled:hover:hover, .datepicker table tr td span.active:active, .datepicker table tr td span.active:focus, .datepicker table tr td span.active:hover, .datepicker table tr td span.active:hover.active, .datepicker table tr td span.active:hover:active, .datepicker table tr td span.active:hover:focus, .datepicker table tr td span.active:hover:hover, .datepicker table tr td.active.active, .datepicker table tr td.active.disabled.active, .datepicker table tr td.active.disabled:active, .datepicker table tr td.active.disabled:focus, .datepicker table tr td.active.disabled:hover, .datepicker table tr td.active.disabled:hover.active, .datepicker table tr td.active.disabled:hover:active, .datepicker table tr td.active.disabled:hover:focus, .datepicker table tr td.active.disabled:hover:hover, .datepicker table tr td.active:active, .datepicker table tr td.active:focus, .datepicker table tr td.active:hover, .datepicker table tr td.active:hover.active, .datepicker table tr td.active:hover:active, .datepicker table tr td.active:hover:focus, .datepicker table tr td.active:hover:hover, .open .dropdown-toggle.datepicker table tr td span.active, .open .dropdown-toggle.datepicker table tr td span.active.disabled, .open .dropdown-toggle.datepicker table tr td span.active.disabled:hover, .open .dropdown-toggle.datepicker table tr td span.active:hover, .open .dropdown-toggle.datepicker table tr td.active, .open .dropdown-toggle.datepicker table tr td.active.disabled, .open .dropdown-toggle.datepicker table tr td.active.disabled:hover, .open .dropdown-toggle.datepicker table tr td.active:hover {
+.datepicker table tr td span.active.active,
+.datepicker table tr td span.active.disabled.active,
+.datepicker table tr td span.active.disabled:active,
+.datepicker table tr td span.active.disabled:focus,
+.datepicker table tr td span.active.disabled:hover,
+.datepicker table tr td span.active.disabled:hover.active,
+.datepicker table tr td span.active.disabled:hover:active,
+.datepicker table tr td span.active.disabled:hover:focus,
+.datepicker table tr td span.active.disabled:hover:hover,
+.datepicker table tr td span.active:active,
+.datepicker table tr td span.active:focus,
+.datepicker table tr td span.active:hover,
+.datepicker table tr td span.active:hover.active,
+.datepicker table tr td span.active:hover:active,
+.datepicker table tr td span.active:hover:focus,
+.datepicker table tr td span.active:hover:hover,
+.datepicker table tr td.active.active,
+.datepicker table tr td.active.disabled.active,
+.datepicker table tr td.active.disabled:active,
+.datepicker table tr td.active.disabled:focus,
+.datepicker table tr td.active.disabled:hover,
+.datepicker table tr td.active.disabled:hover.active,
+.datepicker table tr td.active.disabled:hover:active,
+.datepicker table tr td.active.disabled:hover:focus,
+.datepicker table tr td.active.disabled:hover:hover,
+.datepicker table tr td.active:active,
+.datepicker table tr td.active:focus,
+.datepicker table tr td.active:hover,
+.datepicker table tr td.active:hover.active,
+.datepicker table tr td.active:hover:active,
+.datepicker table tr td.active:hover:focus,
+.datepicker table tr td.active:hover:hover,
+.open .dropdown-toggle.datepicker table tr td span.active,
+.open .dropdown-toggle.datepicker table tr td span.active.disabled,
+.open .dropdown-toggle.datepicker table tr td span.active.disabled:hover,
+.open .dropdown-toggle.datepicker table tr td span.active:hover,
+.open .dropdown-toggle.datepicker table tr td.active,
+.open .dropdown-toggle.datepicker table tr td.active.disabled,
+.open .dropdown-toggle.datepicker table tr td.active.disabled:hover,
+.open .dropdown-toggle.datepicker table tr td.active:hover {
     color: #fff;
-    background-color: #006DEF;
+    background-color: #b0b0b0;
     border: 0
 }
 
-#flot3 .pie-chart-legend, #flotTip {
+#flot3 .pie-chart-legend,
+#flotTip {
     padding: 5px
 }
 
@@ -2190,7 +2540,8 @@ tr.group, tr.group:hover {
     box-sizing: content-box
 }
 
-#flot1, #flot2 {
+#flot1,
+#flot2 {
     width: 100%;
     height: 250px
 }
@@ -2213,8 +2564,9 @@ tr.group, tr.group:hover {
     font-size: 13px !important
 }
 
-.jqvmap-zoomin, .jqvmap-zoomout {
-    background-color: #006DEF;
+.jqvmap-zoomin,
+.jqvmap-zoomout {
+    background-color: #b0b0b0;
     color: #fff;
     border: 1px solid transparent;
     font-size: 13px;
@@ -2226,7 +2578,12 @@ tr.group, tr.group:hover {
     margin-left: 7px
 }
 
-.jqvmap-zoomin:active, .jqvmap-zoomin:focus, .jqvmap-zoomin:hover, .jqvmap-zoomout:active, .jqvmap-zoomout:focus, .jqvmap-zoomout:hover {
+.jqvmap-zoomin:active,
+.jqvmap-zoomin:focus,
+.jqvmap-zoomin:hover,
+.jqvmap-zoomout:active,
+.jqvmap-zoomout:focus,
+.jqvmap-zoomout:hover {
     background-color: #6a5fac;
     border: 1px solid transparent
 }
@@ -2238,7 +2595,8 @@ tr.group, tr.group:hover {
     padding: 15px
 }
 
-.gritter-bottom, .gritter-top {
+.gritter-bottom,
+.gritter-top {
     background: 0 0 !important
 }
 
@@ -2289,7 +2647,10 @@ tr.group, tr.group:hover {
     border-bottom-right-radius: 2px
 }
 
-.fc-state-active, .fc-state-disabled, .fc-state-down, .fc-state-hover {
+.fc-state-active,
+.fc-state-disabled,
+.fc-state-down,
+.fc-state-hover {
     color: #333;
     background-color: #e6e6e6
 }
@@ -2304,7 +2665,8 @@ tr.group, tr.group:hover {
     transition: none
 }
 
-.fc-state-active, .fc-state-down {
+.fc-state-active,
+.fc-state-down {
     background-color: #f1f1f1;
     border: 1px solid #e5e5e5;
     box-shadow: 0 !important
@@ -2320,7 +2682,7 @@ tr.group, tr.group:hover {
 
 .fc-day-grid-event {
     padding: 5px;
-    background: #006DEF;
+    background: #b0b0b0;
     border: 0
 }
 
@@ -2376,7 +2738,7 @@ tr.group, tr.group:hover {
 
 .topmenu-outer {
     height: 60px;
-    background: #006DEF;
+    background: #b0b0b0;
     margin-left: 160px
 }
 
@@ -2385,16 +2747,16 @@ tr.group, tr.group:hover {
 }
 
 .pace .pace-progress {
-    background: #006DEF
+    background: #b0b0b0
 }
 
 .pace .pace-progress-inner {
-    box-shadow: 0 0 10px #006DEF, 0 0 5px #006DEF
+    box-shadow: 0 0 10px #b0b0b0, 0 0 5px #b0b0b0
 }
 
 .pace .pace-activity {
-    border-top-color: #006DEF;
-    border-left-color: #006DEF;
+    border-top-color: #b0b0b0;
+    border-left-color: #b0b0b0;
     margin-top: 60px
 }
 
@@ -2414,7 +2776,8 @@ tr.group, tr.group:hover {
     display: table-cell
 }
 
-.navbar .logo-box a:focus, .navbar .logo-box a:hover {
+.navbar .logo-box a:focus,
+.navbar .logo-box a:hover {
     text-decoration: none
 }
 
@@ -2430,11 +2793,11 @@ tr.group, tr.group:hover {
     margin-right: 0
 }
 
-.top-menu .navbar-nav > li {
+.top-menu .navbar-nav>li {
     height: 49px
 }
 
-.top-menu .navbar-nav > li > a {
+.top-menu .navbar-nav>li>a {
     display: block;
     padding: 20px 18px;
     color: #fff;
@@ -2443,20 +2806,27 @@ tr.group, tr.group:hover {
     line-height: 20px
 }
 
-.top-menu .nav .open > a, .top-menu .nav .open > a:focus, .top-menu .nav .open > a:hover, .top-menu .nav > li > a:active, .top-menu .nav > li > a:focus, .top-menu .nav > li > a:hover {
+.top-menu .nav .open>a,
+.top-menu .nav .open>a:focus,
+.top-menu .nav .open>a:hover,
+.top-menu .nav>li>a:active,
+.top-menu .nav>li>a:focus,
+.top-menu .nav>li>a:hover {
     background: 0 0
 }
 
-.top-menu .nav .open > a, .top-menu .nav .open > a:focus, .top-menu .nav .open > a:hover {
+.top-menu .nav .open>a,
+.top-menu .nav .open>a:focus,
+.top-menu .nav .open>a:hover {
     background: 0 0;
     border-color: none
 }
 
-.top-menu .navbar-nav > li > a > i {
+.top-menu .navbar-nav>li>a>i {
     font-size: 14px
 }
 
-.top-menu .navbar-nav > li > a > .badge {
+.top-menu .navbar-nav>li>a>.badge {
     font-family: "Open Sans", sans-serif;
     position: absolute;
     top: 12px;
@@ -2466,18 +2836,18 @@ tr.group, tr.group:hover {
     text-shadow: 0 1px 0 rgba(0, 0, 0, .3)
 }
 
-.top-menu .navbar-nav > li > a > .user-name {
+.top-menu .navbar-nav>li>a>.user-name {
     padding: 0 10px 0 0;
     line-height: 20px
 }
 
 @media (max-width: 991px) {
-    .top-menu .navbar-nav > li > a > .user-name {
+    .top-menu .navbar-nav>li>a>.user-name {
         display: none
     }
 }
 
-.top-menu .navbar-nav > li > a > .user-name > i {
+.top-menu .navbar-nav>li>a>.user-name>i {
     margin-left: 5px
 }
 
@@ -2510,7 +2880,8 @@ tr.group, tr.group:hover {
     box-shadow: 0 5px 5px -5px rgba(0, 0, 0, .1)
 }
 
-.dropdown-menu:after, .dropdown-menu:before {
+.dropdown-menu:after,
+.dropdown-menu:before {
     right: auto;
     position: absolute;
     display: inline-block !important;
@@ -2525,7 +2896,7 @@ tr.group, tr.group:hover {
     background: #000000
 }
 
-.navbar-nav > li > .dropdown-menu {
+.navbar-nav>li>.dropdown-menu {
     margin-top: 25px !important
 }
 
@@ -2537,7 +2908,8 @@ tr.group, tr.group:hover {
     border-left: 8px solid transparent
 }
 
-.dropdown-menu.title-caret:after, .dropdown-menu:after {
+.dropdown-menu.title-caret:after,
+.dropdown-menu:after {
     border-bottom: 7px solid #fff
 }
 
@@ -2548,31 +2920,43 @@ tr.group, tr.group:hover {
     border-left: 7px solid transparent
 }
 
-.btn-group.dropup > .dropdown-menu:after, .btn-group.dropup > .dropdown-menu:before, .dropdown-toggle.dropup > .dropdown-menu:after, .dropdown-toggle.dropup > .dropdown-menu:before, .dropdown.dropup > .dropdown-menu:after, .dropdown.dropup > .dropdown-menu:before {
+.btn-group.dropup>.dropdown-menu:after,
+.btn-group.dropup>.dropdown-menu:before,
+.dropdown-toggle.dropup>.dropdown-menu:after,
+.dropdown-toggle.dropup>.dropdown-menu:before,
+.dropdown.dropup>.dropdown-menu:after,
+.dropdown.dropup>.dropdown-menu:before {
     display: none !important
 }
 
-.dropdown-menu.dropdown-menu-left:before, .navbar-left .dropdown-menu:before {
+.dropdown-menu.dropdown-menu-left:before,
+.navbar-left .dropdown-menu:before {
     left: 16px;
     right: auto
 }
 
-.dropdown-menu.dropdown-menu-left:after, .navbar-left .dropdown-menu:after {
+.dropdown-menu.dropdown-menu-left:after,
+.navbar-left .dropdown-menu:after {
     left: 17px;
     right: auto
 }
 
-.dropdown-menu.dropdown-menu-right:before, .navbar-right .dropdown-menu:before {
+.dropdown-menu.dropdown-menu-right:before,
+.navbar-right .dropdown-menu:before {
     right: 16px;
     left: auto
 }
 
-.dropdown-menu.dropdown-menu-right:after, .navbar-right .dropdown-menu:after {
+.dropdown-menu.dropdown-menu-right:after,
+.navbar-right .dropdown-menu:after {
     right: 17px;
     left: auto
 }
 
-.dropdown-menu > li.active > a, .dropdown-menu > li.active > a:active, .dropdown-menu > li.active > a:focus, .dropdown-menu > li.active > a:hover {
+.dropdown-menu>li.active>a,
+.dropdown-menu>li.active>a:active,
+.dropdown-menu>li.active>a:focus,
+.dropdown-menu>li.active>a:hover {
     background: #000000;
     color: #333
 }
@@ -2629,7 +3013,9 @@ tr.group, tr.group:hover {
     padding: 5px 0
 }
 
-.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+.nav .open>a,
+.nav .open>a:focus,
+.nav .open>a:hover {
     background-color: #eee;
     border-color: transparent
 }
@@ -2694,7 +3080,8 @@ tr.group, tr.group:hover {
     background: #ccc
 }
 
-.task-icon.badge, .tasks li a {
+.task-icon.badge,
+.tasks li a {
     display: block;
     position: relative
 }
@@ -2853,7 +3240,8 @@ tr.group, tr.group:hover {
     overflow: visible !important
 }
 
-.sidebar-header, .sidebar-profile {
+.sidebar-header,
+.sidebar-profile {
     overflow: hidden;
     position: relative
 }
@@ -2863,11 +3251,17 @@ tr.group, tr.group:hover {
     padding: 20px
 }
 
-.sidebar-profile, .sidebar-profile-image {
+.sidebar-profile,
+.sidebar-profile-image {
     display: block
 }
 
-.horizontal-bar .page-sidebar-inner, .hover-menu .sidebar, .hover-menu .sidebar .menu, .hover-menu .sidebar .page-sidebar-inner, .hover-menu .sidebar .slimScrollDiv, .small-sidebar .horizontal-bar .slimScrollDiv {
+.horizontal-bar .page-sidebar-inner,
+.hover-menu .sidebar,
+.hover-menu .sidebar .menu,
+.hover-menu .sidebar .page-sidebar-inner,
+.hover-menu .sidebar .slimScrollDiv,
+.small-sidebar .horizontal-bar .slimScrollDiv {
     overflow: visible !important
 }
 
@@ -2900,7 +3294,8 @@ tr.group, tr.group:hover {
     font-size: 14px
 }
 
-.page-horizontal-bar .sidebar-header, .small-sidebar .sidebar-header {
+.page-horizontal-bar .sidebar-header,
+.small-sidebar .sidebar-header {
     display: none
 }
 
@@ -2930,7 +3325,6 @@ tr.group, tr.group:hover {
         bottom: auto;
         padding-top: 60px
     }
-
     .page-horizontal-bar.page-sidebar-fixed .page-content.container .horizontal-bar {
         width: 750px;
         margin: 0 auto
@@ -2952,19 +3346,16 @@ tr.group, tr.group:hover {
 }
 
 @media (max-width: 1200px) {
-    .horizontal-bar .accordion-menu > li > a > p {
+    .horizontal-bar .accordion-menu>li>a>p {
         display: none
     }
-
-    .compact-menu .horizontal-bar .accordion-menu > li > a > p {
+    .compact-menu .horizontal-bar .accordion-menu>li>a>p {
         display: none !important
     }
-
-    body:not(.small-sidebar) .horizontal-bar .accordion-menu > li > a > .menu-icon {
+    body:not(.small-sidebar) .horizontal-bar .accordion-menu>li>a>.menu-icon {
         float: none !important;
         margin: 0 !important
     }
-
     .horizontal-bar .accordion-menu ul {
         top: 50px !important
     }
@@ -2984,7 +3375,8 @@ tr.group, tr.group:hover {
     position: relative
 }
 
-.horizontal-bar .accordion-menu > li > a, .small-sidebar.page-horizontal-bar .horizontal-bar .accordion-menu > li > a {
+.horizontal-bar .accordion-menu>li>a,
+.small-sidebar.page-horizontal-bar .horizontal-bar .accordion-menu>li>a {
     padding: 16px !important
 }
 
@@ -2992,7 +3384,7 @@ tr.group, tr.group:hover {
     font-size: 15px
 }
 
-.horizontal-bar .accordion-menu > li > a > p {
+.horizontal-bar .accordion-menu>li>a>p {
     font-size: 13px
 }
 
@@ -3005,23 +3397,23 @@ tr.group, tr.group:hover {
     padding: 10px 15px
 }
 
-.page-horizontal-bar.small-sidebar:not(.page-sidebar-fixed) .accordion-menu > li > a {
+.page-horizontal-bar.small-sidebar:not(.page-sidebar-fixed) .accordion-menu>li>a {
     width: auto
 }
 
-.horizontal-bar .accordion-menu > li > a > span.arrow:before {
+.horizontal-bar .accordion-menu>li>a>span.arrow:before {
     display: none
 }
 
-body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-icon {
+body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu>li>a>.menu-icon {
     font-size: 14px
 }
 
-.small-sidebar.page-horizontal-bar .menu.accordion-menu > li > a > span.menu-icon {
+.small-sidebar.page-horizontal-bar .menu.accordion-menu>li>a>span.menu-icon {
     margin: 0 !important
 }
 
-.horizontal-bar .accordion-menu > li > ul {
+.horizontal-bar .accordion-menu>li>ul {
     left: 0 !important;
     top: 74px;
     width: 200px;
@@ -3037,11 +3429,11 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     display: none
 }
 
-.small-sidebar .horizontal-bar .accordion-menu > li > a > p {
+.small-sidebar .horizontal-bar .accordion-menu>li>a>p {
     display: none !important
 }
 
-.small-sidebar .horizontal-bar .accordion-menu > li > ul {
+.small-sidebar .horizontal-bar .accordion-menu>li>ul {
     top: 44px !important
 }
 
@@ -3100,7 +3492,9 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     padding: 0 20px !important
 }
 
-.search-form .input-group button, .search-form .input-group button:focus, .search-form .input-group button:hover {
+.search-form .input-group button,
+.search-form .input-group button:focus,
+.search-form .input-group button:hover {
     background: 0 0;
     box-shadow: none;
     border: none;
@@ -3133,11 +3527,13 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     font-size: 13px
 }
 
-.menu.accordion-menu > li > a, body:not(.page-horizontal-bar):not(.small-sidebar) .menu.accordion-menu a {
+.menu.accordion-menu>li>a,
+body:not(.page-horizontal-bar):not(.small-sidebar) .menu.accordion-menu a {
     text-align: center
 }
 
-.compact-menu:not(.small-sidebar) .menu.accordion-menu li a, .hover-menu .accordion-menu ul li a {
+.compact-menu:not(.small-sidebar) .menu.accordion-menu li a,
+.hover-menu .accordion-menu ul li a {
     text-align: left !important
 }
 
@@ -3152,7 +3548,7 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     margin-bottom: 10px
 }
 
-.menu.accordion-menu li > a > .arrow:before {
+.menu.accordion-menu li>a>.arrow:before {
     width: 10px;
     float: right;
     display: block;
@@ -3164,11 +3560,11 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     font-weight: 300
 }
 
-.menu.accordion-menu > li > a > .arrow:before {
+.menu.accordion-menu>li>a>.arrow:before {
     margin-top: -39px
 }
 
-.menu.accordion-menu li.open > a > .arrow:before {
+.menu.accordion-menu li.open>a>.arrow:before {
     -webkit-transform: rotate(-90deg);
     -moz-transform: rotate(-90deg);
     -o-transform: rotate(-90deg);
@@ -3204,15 +3600,21 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     padding: 2px 0
 }
 
-.compact-menu .menu.accordion-menu .sub-menu li .sub-menu li a, .hover-menu .menu.accordion-menu .sub-menu li .sub-menu li a, .page-horizontal-bar .menu.accordion-menu .sub-menu li .sub-menu li a {
+.compact-menu .menu.accordion-menu .sub-menu li .sub-menu li a,
+.hover-menu .menu.accordion-menu .sub-menu li .sub-menu li a,
+.page-horizontal-bar .menu.accordion-menu .sub-menu li .sub-menu li a {
     padding-left: 26px
 }
 
-.compact-menu .menu.accordion-menu .sub-menu li .sub-menu li .sub-menu li a, .hover-menu .menu.accordion-menu .sub-menu li .sub-menu li .sub-menu li a, .page-horizontal-bar .menu.accordion-menu .sub-menu li .sub-menu li .sub-menu li a {
+.compact-menu .menu.accordion-menu .sub-menu li .sub-menu li .sub-menu li a,
+.hover-menu .menu.accordion-menu .sub-menu li .sub-menu li .sub-menu li a,
+.page-horizontal-bar .menu.accordion-menu .sub-menu li .sub-menu li .sub-menu li a {
     padding-left: 31px
 }
 
-.compact-menu .menu.accordion-menu .sub-menu li .sub-menu li .sub-menu li .sub-menu li a, .hover-menu .menu.accordion-menu .sub-menu li .sub-menu li .sub-menu li .sub-menu li a, .page-horizontal-bar .menu.accordion-menu .sub-menu li .sub-menu li .sub-menu li .sub-menu li a {
+.compact-menu .menu.accordion-menu .sub-menu li .sub-menu li .sub-menu li .sub-menu li a,
+.hover-menu .menu.accordion-menu .sub-menu li .sub-menu li .sub-menu li .sub-menu li a,
+.page-horizontal-bar .menu.accordion-menu .sub-menu li .sub-menu li .sub-menu li .sub-menu li a {
     padding-left: 36px
 }
 
@@ -3221,7 +3623,7 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     z-index: 99
 }
 
-.compact-menu:not(.page-horizontal-bar) .menu.accordion-menu > li > a > p {
+.compact-menu:not(.page-horizontal-bar) .menu.accordion-menu>li>a>p {
     display: inline !important
 }
 
@@ -3244,11 +3646,12 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     top: 46px !important
 }
 
-.hover-menu:not(.page-horizontal-bar) .menu.accordion-menu > li > a > span.arrow {
+.hover-menu:not(.page-horizontal-bar) .menu.accordion-menu>li>a>span.arrow {
     display: none
 }
 
-.hover-menu .menu.accordion-menu > li.open:hover > ul, .hover-menu .menu.accordion-menu > li:hover > ul {
+.hover-menu .menu.accordion-menu>li.open:hover>ul,
+.hover-menu .menu.accordion-menu>li:hover>ul {
     display: inline-block !important
 }
 
@@ -3256,13 +3659,13 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     position: relative
 }
 
-.hover-menu .accordion-menu > li > ul {
+.hover-menu .accordion-menu>li>ul {
     position: absolute;
     left: 160px;
     width: 200px
 }
 
-.hover-menu:not(.page-horizontal-bar) .accordion-menu > li > ul {
+.hover-menu:not(.page-horizontal-bar) .accordion-menu>li>ul {
     position: absolute;
     top: 0;
     left: 160px;
@@ -3273,7 +3676,12 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     display: inline
 }
 
-.hover-menu .sidebar .slimScrollBar, .hover-menu .slimScrollBar, .small-sidebar.page-sidebar-fixed:not(.page-horizontal-bar) .menu.accordion-menu li a .arrow, .small-sidebar.page-sidebar-fixed:not(.page-horizontal-bar) .menu.accordion-menu li a .badge, .small-sidebar.page-sidebar-fixed:not(.page-horizontal-bar) .menu.accordion-menu li a p, .small-sidebar.page-sidebar-fixed:not(.page-horizontal-bar) .menu.accordion-menu li.menu-title {
+.hover-menu .sidebar .slimScrollBar,
+.hover-menu .slimScrollBar,
+.small-sidebar.page-sidebar-fixed:not(.page-horizontal-bar) .menu.accordion-menu li a .arrow,
+.small-sidebar.page-sidebar-fixed:not(.page-horizontal-bar) .menu.accordion-menu li a .badge,
+.small-sidebar.page-sidebar-fixed:not(.page-horizontal-bar) .menu.accordion-menu li a p,
+.small-sidebar.page-sidebar-fixed:not(.page-horizontal-bar) .menu.accordion-menu li.menu-title {
     display: none !important
 }
 
@@ -3285,24 +3693,25 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     overflow: hidden !important
 }
 
-.small-sidebar.page-sidebar-fixed:not(.page-horizontal-bar) .sidebar:hover, .small-sidebar.page-sidebar-fixed:not(.page-horizontal-bar) .sidebar:hover .menu.accordion-menu {
+.small-sidebar.page-sidebar-fixed:not(.page-horizontal-bar) .sidebar:hover,
+.small-sidebar.page-sidebar-fixed:not(.page-horizontal-bar) .sidebar:hover .menu.accordion-menu {
     width: 160px !important
 }
 
-.small-sidebar.page-sidebar-fixed:not(.page-horizontal-bar) .menu.accordion-menu > li > a {
+.small-sidebar.page-sidebar-fixed:not(.page-horizontal-bar) .menu.accordion-menu>li>a {
     padding: 15px;
     text-align: center
 }
 
-.small-sidebar.page-sidebar-fixed:not(.page-horizontal-bar) .sidebar:hover .menu.accordion-menu > li > a {
+.small-sidebar.page-sidebar-fixed:not(.page-horizontal-bar) .sidebar:hover .menu.accordion-menu>li>a {
     padding: 15px 18px
 }
 
-.compact-menu.small-sidebar.page-sidebar-fixed:not(.page-horizontal-bar) .sidebar:hover .menu.accordion-menu > li > a {
+.compact-menu.small-sidebar.page-sidebar-fixed:not(.page-horizontal-bar) .sidebar:hover .menu.accordion-menu>li>a {
     text-align: left
 }
 
-.compact-menu.small-sidebar.page-sidebar-fixed:not(.page-horizontal-bar) .sidebar:hover .menu.accordion-menu > li > a > .menu-icon {
+.compact-menu.small-sidebar.page-sidebar-fixed:not(.page-horizontal-bar) .sidebar:hover .menu.accordion-menu>li>a>.menu-icon {
     margin-right: 10px !important
 }
 
@@ -3330,11 +3739,15 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     padding: 0
 }
 
-.small-sidebar.page-sidebar-fixed:not(.page-horizontal-bar) .sidebar:hover .menu.accordion-menu li a p, .small-sidebar.page-sidebar-fixed:not(.page-horizontal-bar) .sidebar:hover .menu.accordion-menu li.menu-title, .small-sidebar.page-sidebar-fixed:not(.page-horizontal-bar) .sidebar:hover .sidebar-header, .small-sidebar.page-sidebar-fixed:not(.page-horizontal-bar) .sidebar:hover .sidebar-widget {
+.small-sidebar.page-sidebar-fixed:not(.page-horizontal-bar) .sidebar:hover .menu.accordion-menu li a p,
+.small-sidebar.page-sidebar-fixed:not(.page-horizontal-bar) .sidebar:hover .menu.accordion-menu li.menu-title,
+.small-sidebar.page-sidebar-fixed:not(.page-horizontal-bar) .sidebar:hover .sidebar-header,
+.small-sidebar.page-sidebar-fixed:not(.page-horizontal-bar) .sidebar:hover .sidebar-widget {
     display: block !important
 }
 
-.compact-menu.small-sidebar.page-sidebar-fixed:not(.page-horizontal-bar) .sidebar:hover .menu.accordion-menu li a p, .compact-menu.small-sidebar.page-sidebar-fixed:not(.page-horizontal-bar) .sidebar:hover .menu.accordion-menu li.menu-title {
+.compact-menu.small-sidebar.page-sidebar-fixed:not(.page-horizontal-bar) .sidebar:hover .menu.accordion-menu li a p,
+.compact-menu.small-sidebar.page-sidebar-fixed:not(.page-horizontal-bar) .sidebar:hover .menu.accordion-menu li.menu-title {
     display: inline !important
 }
 
@@ -3349,11 +3762,15 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     float: right
 }
 
-.horizontal-bar, .horizontal-bar > *, .small-sidebar:not(.page-sidebar-fixed) .sidebar, .small-sidebar:not(.page-sidebar-fixed) .sidebar > * {
+.horizontal-bar,
+.horizontal-bar>*,
+.small-sidebar:not(.page-sidebar-fixed) .sidebar,
+.small-sidebar:not(.page-sidebar-fixed) .sidebar>* {
     overflow: visible !important
 }
 
-.horizontal-bar .slimScrollBar, .small-sidebar:not(.page-sidebar-fixed) .sidebar .slimScrollBar {
+.horizontal-bar .slimScrollBar,
+.small-sidebar:not(.page-sidebar-fixed) .sidebar .slimScrollBar {
     display: none !important
 }
 
@@ -3362,7 +3779,8 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     oveflow: visible !important
 }
 
-.small-sidebar:not(.page-sidebar-fixed) .accordion-menu, .small-sidebar:not(.page-sidebar-fixed) .accordion-menu li {
+.small-sidebar:not(.page-sidebar-fixed) .accordion-menu,
+.small-sidebar:not(.page-sidebar-fixed) .accordion-menu li {
     padding: 0;
     margin: 0
 }
@@ -3378,7 +3796,7 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     display: block
 }
 
-.small-sidebar:not(.page-sidebar-fixed) .accordion-menu > li > a {
+.small-sidebar:not(.page-sidebar-fixed) .accordion-menu>li>a {
     padding: 15px 25px;
     text-align: center;
     position: relative;
@@ -3409,11 +3827,11 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     font-weight: 300
 }
 
-.small-sidebar:not(.page-sidebar-fixed) .accordion-menu li:hover > a {
+.small-sidebar:not(.page-sidebar-fixed) .accordion-menu li:hover>a {
     z-index: 999
 }
 
-.small-sidebar:not(.page-sidebar-fixed) .accordion-menu > li > ul {
+.small-sidebar:not(.page-sidebar-fixed) .accordion-menu>li>ul {
     position: absolute;
     left: 65px;
     top: 48px;
@@ -3431,7 +3849,7 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     margin-right: 15px
 }
 
-.small-sidebar:not(.page-sidebar-fixed) .accordion-menu > li > a > span.arrow {
+.small-sidebar:not(.page-sidebar-fixed) .accordion-menu>li>a>span.arrow {
     display: none
 }
 
@@ -3440,7 +3858,8 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     text-align: left
 }
 
-.bs-glyphicons-list li, .bs-glyphicons-list li span {
+.bs-glyphicons-list li,
+.bs-glyphicons-list li span {
     display: block;
     text-align: center
 }
@@ -3449,11 +3868,15 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     display: none
 }
 
-.page-horizontal-bar .accordion-menu > li.open:hover > ul, .page-horizontal-bar .accordion-menu > li:hover > ul, .small-sidebar:not(.page-sidebar-fixed) .accordion-menu > li.open:hover > ul, .small-sidebar:not(.page-sidebar-fixed) .accordion-menu > li:hover > ul {
+.page-horizontal-bar .accordion-menu>li.open:hover>ul,
+.page-horizontal-bar .accordion-menu>li:hover>ul,
+.small-sidebar:not(.page-sidebar-fixed) .accordion-menu>li.open:hover>ul,
+.small-sidebar:not(.page-sidebar-fixed) .accordion-menu>li:hover>ul {
     display: inline-block !important
 }
 
-.page-horizontal-bar .accordion-menu > li.open > ul, .small-sidebar:not(.page-sidebar-fixed) .accordion-menu > li.open > ul {
+.page-horizontal-bar .accordion-menu>li.open>ul,
+.small-sidebar:not(.page-sidebar-fixed) .accordion-menu>li.open>ul {
     display: none !important
 }
 
@@ -3509,7 +3932,9 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     margin: 0 0 4px
 }
 
-.page-breadcrumb ol.breadcrumb li a, .page-breadcrumb ol.breadcrumb li.active, .page-breadcrumb ul li a {
+.page-breadcrumb ol.breadcrumb li a,
+.page-breadcrumb ol.breadcrumb li.active,
+.page-breadcrumb ul li a {
     font-size: 13px;
     color: #90999c
 }
@@ -3521,7 +3946,8 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     margin-top: 30px
 }
 
-.page-breadcrumb ol.breadcrumb, .page-breadcrumb ul {
+.page-breadcrumb ol.breadcrumb,
+.page-breadcrumb ul {
     margin: 0
 }
 
@@ -3544,7 +3970,8 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     padding: 19px 25px
 }
 
-.push-sidebar, .search-button a {
+.push-sidebar,
+.search-button a {
     text-decoration: none;
     padding: 20px 18px;
     color: #fff;
@@ -3553,7 +3980,8 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     font-size: 17px
 }
 
-.fontawesome-icon-list .fa-item:hover, .line-icons .line-icon-item:hover {
+.fontawesome-icon-list .fa-item:hover,
+.line-icons .line-icon-item:hover {
     background: #f1f1f1
 }
 
@@ -3564,7 +3992,8 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     display: none
 }
 
-.search-button, .sidebar-pusher {
+.search-button,
+.sidebar-pusher {
     top: 50%;
     -webkit-transform: translateY(-50%)
 }
@@ -3593,7 +4022,8 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     float: right
 }
 
-.fontawesome-icon-list .fa-item, .line-icons .line-icon-item {
+.fontawesome-icon-list .fa-item,
+.line-icons .line-icon-item {
     padding: 10px 20px;
     color: #333
 }
@@ -3698,7 +4128,12 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     text-decoration: line-through
 }
 
-.inbox-widget a, .mailbox-nav li a, .message-attachment a, .post-options a, .search-item a, .timeline-options a {
+.inbox-widget a,
+.mailbox-nav li a,
+.message-attachment a,
+.post-options a,
+.search-item a,
+.timeline-options a {
     text-decoration: none
 }
 
@@ -3774,7 +4209,8 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     border-bottom: 0
 }
 
-.inbox-widget .inbox-item, .weather-top {
+.inbox-widget .inbox-item,
+.weather-top {
     border-bottom: 1px solid #f1f1f1;
     overflow: hidden
 }
@@ -3798,7 +4234,7 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     width: 100%
 }
 
-.server-load > .server-stat {
+.server-load>.server-stat {
     display: inline-block;
     margin-right: 5px;
     margin-bottom: 20px
@@ -3853,7 +4289,8 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     font-size: 22px
 }
 
-.weather-days li i, .weather-days li span {
+.weather-days li i,
+.weather-days li span {
     display: block;
     text-align: center
 }
@@ -3910,7 +4347,8 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     background: #3B5998
 }
 
-.facebook-box i, .twitter-box i {
+.facebook-box i,
+.twitter-box i {
     position: absolute;
     right: 10px;
     bottom: 0;
@@ -3938,11 +4376,12 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     position: relative
 }
 
-.inbox-widget a:last-child > .inbox-item {
+.inbox-widget a:last-child>.inbox-item {
     border-bottom: 0
 }
 
-.timeline-comment, .timeline-options {
+.timeline-comment,
+.timeline-options {
     overflow: hidden;
     border-bottom: 1px solid #f1f1f1
 }
@@ -4092,7 +4531,7 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     position: relative
 }
 
-.profile-timeline ul li .timeline-item-post > img {
+.profile-timeline ul li .timeline-item-post>img {
     width: 100%
 }
 
@@ -4114,7 +4553,7 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
 }
 
 .timeline-options a:hover {
-    color: #006DEF
+    color: #b0b0b0
 }
 
 .timeline-comment {
@@ -4169,7 +4608,7 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
 }
 
 .post-options a:hover {
-    color: #006DEF
+    color: #b0b0b0
 }
 
 #gallery .mix {
@@ -4184,7 +4623,8 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     overflow: hidden
 }
 
-.mailbox-nav .active a, .mailbox-nav li a:hover {
+.mailbox-nav .active a,
+.mailbox-nav li a:hover {
     color: #333
 }
 
@@ -4231,7 +4671,8 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     display: none
 }
 
-.message-sender img, .message-sender p {
+.message-sender img,
+.message-sender p {
     display: inline-block
 }
 
@@ -4242,7 +4683,8 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     margin-bottom: 10px
 }
 
-.message-content, .message-sender {
+.message-content,
+.message-sender {
     padding: 0 0 5px
 }
 
@@ -4258,7 +4700,9 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     margin: 0
 }
 
-.message-attachments, .message-content, .message-sender {
+.message-attachments,
+.message-content,
+.message-sender {
     border-bottom: 1px solid #f1f1f1;
     overflow: hidden;
     margin-bottom: 10px
@@ -4286,11 +4730,13 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     border: 1px solid #f1f1f1
 }
 
-.attachment-info p, .box-notifications ul li p {
+.attachment-info p,
+.box-notifications ul li p {
     margin: 0
 }
 
-.compose-options, .message-attachment img {
+.compose-options,
+.message-attachment img {
     display: block;
     width: 100%
 }
@@ -4319,7 +4765,30 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     overflow-y: scroll
 }
 
-.chat .chat-item, .color-switcher, .info, .info-box, .login-box .user-box form, .messages li a, .messages li a .msg-img, .messages li a .msg-text, .messages li a .msg-time, .navbar .logo-box, .navbar .logo-box a, .page-breadcrumb, .page-breadcrumb .breadcrumb, .page-breadcrumb ul, .page-footer, .page-inner, .search-form, .small-sidebar .accordion-menu li a, .small-sidebar .page-sidebar-fixed .page-inner, .tasks li a, .tasks li a .task-icon, .text-box, .top-menu .navbar-nav > li > a > img, body:not(.small-sidebar):not(.page-horizontal-bar) .menu.accordion-menu {
+.chat .chat-item,
+.color-switcher,
+.info,
+.info-box,
+.login-box .user-box form,
+.messages li a,
+.messages li a .msg-img,
+.messages li a .msg-text,
+.messages li a .msg-time,
+.navbar .logo-box,
+.navbar .logo-box a,
+.page-breadcrumb,
+.page-breadcrumb .breadcrumb,
+.page-breadcrumb ul,
+.page-footer,
+.page-inner,
+.search-form,
+.small-sidebar .accordion-menu li a,
+.small-sidebar .page-sidebar-fixed .page-inner,
+.tasks li a,
+.tasks li a .task-icon,
+.text-box,
+.top-menu .navbar-nav>li>a>img,
+body:not(.small-sidebar):not(.page-horizontal-bar) .menu.accordion-menu {
     overflow: hidden
 }
 
@@ -4357,7 +4826,10 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     background-size: cover
 }
 
-.page-forgot #main-wrapper, .page-lock-screen #main-wrapper, .page-login #main-wrapper, .page-register #main-wrapper {
+.page-forgot #main-wrapper,
+.page-lock-screen #main-wrapper,
+.page-login #main-wrapper,
+.page-register #main-wrapper {
     margin: 5%
 }
 
@@ -4406,7 +4878,7 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
 }
 
 .search-item a.search-link {
-    color: #006DEF
+    color: #b0b0b0
 }
 
 .chat {
@@ -4446,7 +4918,7 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
 }
 
 .chat .chat-item-right .chat-message {
-    background: #006DEF;
+    background: #b0b0b0;
     float: right;
     color: #fff
 }
@@ -4463,7 +4935,9 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
     width: 100%
 }
 
-.menu li a .arrow:before, .menu li.open > a > .arrow:before, .top-menu .navbar-nav > li > a > .badge {
+.menu li a .arrow:before,
+.menu li.open>a>.arrow:before,
+.top-menu .navbar-nav>li>a>.badge {
     -webkit-transition: all .1s ease-in-out;
     -moz-transition: all .1s ease-in-out;
     -o-transition: all .1s ease-in-out;
@@ -4501,11 +4975,11 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
 }
 
 .color-switcher .colorbox.color-green {
-    background-color: #006DEF
+    background-color: #b0b0b0
 }
 
 .color-switcher .colorbox.color-purple {
-    background-color: #006DEF
+    background-color: #b0b0b0
 }
 
 .color-switcher .colorbox.color-dark {
@@ -4517,24 +4991,22 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
 }
 
 @media (max-width: 991px) {
-    .profile-image, .profile-info {
+    .profile-image,
+    .profile-info {
         right: 0;
         left: 0
     }
-
     .profile-info {
         top: 10px;
         bottom: auto;
         text-align: center
     }
-
     .profile-info-value {
         color: #fff;
         float: none;
         margin: 0 10px;
         display: inline-block
     }
-
     .mailbox-header h2 {
         margin: 20px 0;
         text-align: center
@@ -4542,10 +5014,10 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
 }
 
 @media (max-width: 767px) {
-    .horizontal-bar, .small-sidebar .horizontal-bar {
+    .horizontal-bar,
+    .small-sidebar .horizontal-bar {
         height: auto !important
     }
-
     .sidebar {
         opacity: 0;
         visibility: hidden;
@@ -4553,18 +5025,18 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
         width: 0;
         transition: opacity .3s ease-in-out
     }
-
-    .page-horizontal-bar .sidebar.visible, .sidebar, .small-sidebar .sidebar.visible {
+    .page-horizontal-bar .sidebar.visible,
+    .sidebar,
+    .small-sidebar .sidebar.visible {
         -webkit-transition: opacity .3s ease-in-out;
         -moz-transition: opacity .3s ease-in-out;
         -o-transition: opacity .3s ease-in-out
     }
-
     body:not(.page-header-fixed) .sidebar {
         padding-top: 0 !important
     }
-
-    .page-horizontal-bar .sidebar.visible, .small-sidebar .sidebar.visible {
+    .page-horizontal-bar .sidebar.visible,
+    .small-sidebar .sidebar.visible {
         margin-right: -65px;
         opacity: 1;
         visibility: visible;
@@ -4572,7 +5044,6 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
         display: block;
         transition: opacity .3s ease-in-out
     }
-
     body:not(.small-sidebar) .sidebar.visible {
         margin-right: -160px;
         opacity: 1;
@@ -4581,17 +5052,17 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
         width: 160px;
         transition: opacity .3s ease-in-out
     }
-
-    .horizontal-bar, .small-sidebar .sidebar, body:not(.small-sidebar) .sidebar.visible {
+    .horizontal-bar,
+    .small-sidebar .sidebar,
+    body:not(.small-sidebar) .sidebar.visible {
         -webkit-transition: opacity .3s ease-in-out;
         -moz-transition: opacity .3s ease-in-out;
         -o-transition: opacity .3s ease-in-out
     }
-
-    .horizontal-bar, .small-sidebar .sidebar {
+    .horizontal-bar,
+    .small-sidebar .sidebar {
         transition: opacity .3s ease-in-out
     }
-
     .navbar .logo-box {
         margin: 0 auto;
         background: 0 0 !important;
@@ -4599,106 +5070,97 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu > li > a > .menu-i
         width: 100% !important;
         border: 0 !important
     }
-
     .navbar .logo-box a {
         color: #fff !important
     }
-
     .navbar .logo-box .logo-text {
         width: 100%;
         display: inline-block !important
     }
-
     .page-sidebar-fixed:not(.page-header-fixed) .logo-box {
         position: relative;
         display: block
     }
-
     .small-sidebar .navbar .logo-box a span {
         display: inline-block
     }
-
-    .search-button, .sidebar-pusher {
+    .search-button,
+    .sidebar-pusher {
         display: block
     }
-
-    .page-sidebar-fixed:not(.page-header-fixed) .topmenu-outer, .small-sidebar .topmenu-outer, .topmenu-outer {
+    .page-sidebar-fixed:not(.page-header-fixed) .topmenu-outer,
+    .small-sidebar .topmenu-outer,
+    .topmenu-outer {
         margin: 0
     }
-
     .top-menu {
         display: none
     }
-
     .page-inner {
         -webkit-transition: all .1s ease-in-out;
         -moz-transition: all .1s ease-in-out;
         -o-transition: all .1s ease-in-out;
         transition: all .1s ease-in-out
     }
-
     .page-inner.sidebar-visible {
         -webkit-transform: translate3d(160px, 0, 0);
         transform: translate3d(160px, 0, 0)
     }
-
-    .page-horizontal-bar .page-inner.sidebar-visible, .small-sidebar .page-inner.sidebar-visible {
+    .page-horizontal-bar .page-inner.sidebar-visible,
+    .small-sidebar .page-inner.sidebar-visible {
         -webkit-transform: translate3d(65px, 0, 0);
         transform: translate3d(65px, 0, 0)
     }
-
     .page-sidebar-fixed.page-header-fixed .page-inner {
         padding: 60px 0 50px !important
     }
-
     .horizontal-bar {
         float: left;
         display: block;
         z-index: 1029;
         overflow: visible !important
     }
-
     .horizontal-bar .menu li {
         float: none;
         display: block
     }
-
-    .horizontal-bar .accordion-menu li > ul, .small-sidebar .horizontal-bar .accordion-menu li > ul {
+    .horizontal-bar .accordion-menu li>ul,
+    .small-sidebar .horizontal-bar .accordion-menu li>ul {
         left: 65px !important;
         top: 0 !important
     }
-
-    .small-sidebar.page-horizontal-bar .accordion-menu > li > a, .small-sidebar.page-horizontal-bar:not(.page-sidebar-fixed) .accordion-menu > li > a {
+    .small-sidebar.page-horizontal-bar .accordion-menu>li>a,
+    .small-sidebar.page-horizontal-bar:not(.page-sidebar-fixed) .accordion-menu>li>a {
         padding: 15px !important;
         text-align: center;
         width: 65px
     }
-
     .horizontal-bar .menu li a p {
         display: none
     }
-
-    .small-sidebar.page-horizontal-bar .horizontal-bar .accordion-menu > li > a > .menu-icon {
+    .small-sidebar.page-horizontal-bar .horizontal-bar .accordion-menu>li>a>.menu-icon {
         margin-right: 0 !important;
         font-size: 16px;
         float: none !important
     }
-
-    .horizontal-bar .accordion-menu > li > a, .page-horizontal-bar.compact-menu:not(.small-sidebar) .menu.accordion-menu > li > a {
+    .horizontal-bar .accordion-menu>li>a,
+    .page-horizontal-bar.compact-menu:not(.small-sidebar) .menu.accordion-menu>li>a {
         padding: 15px !important;
         text-align: center !important;
         width: 65px
     }
-
-    .page-horizontal-bar .page-inner, .page-horizontal-bar.page-sidebar-fixed.page-header-fixed .page-inner, .small-sidebar.page-header-fixed.page-horizontal-bar:not(.page-sidebar-fixed) .page-inner, .small-sidebar.page-sidebar-fixed.page-header-fixed.page-horizontal-bar .page-inner {
+    .page-horizontal-bar .page-inner,
+    .page-horizontal-bar.page-sidebar-fixed.page-header-fixed .page-inner,
+    .small-sidebar.page-header-fixed.page-horizontal-bar:not(.page-sidebar-fixed) .page-inner,
+    .small-sidebar.page-sidebar-fixed.page-header-fixed.page-horizontal-bar .page-inner {
         padding: 60px 0 50px
     }
-
     body:not(.page-header-fixed) .page-inner {
         padding: 0 0 50px
     }
-
-    .page-horizontal-bar.page-sidebar-fixed.compact-menu .checkout, .page-horizontal-bar.page-sidebar-fixed:not(.compact-menu) .checkout, .page-horizontal-bar:not(.page-sidebar-fixed) .checkout {
+    .page-horizontal-bar.page-sidebar-fixed.compact-menu .checkout,
+    .page-horizontal-bar.page-sidebar-fixed:not(.compact-menu) .checkout,
+    .page-horizontal-bar:not(.page-sidebar-fixed) .checkout {
         top: 60px
     }
 }

@@ -35,7 +35,7 @@
                 <div id="main-wrapper">
                     <div class="row">
                         <div class="col-md-3 user-profile">
-                            <h3 class="text-center">Amily Lee</h3>
+                            <h3 class="text-center">{{ Auth::user()->name }}</h3>
                             <p class="text-center">UI/UX Designer</p>
                             <hr>
                             <ul class="list-unstyled text-center">
