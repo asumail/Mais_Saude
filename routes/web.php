@@ -54,3 +54,10 @@ Route::resource('/superempresa', 'EmpresaController');
 Auth::routes();
 
 Route::resource('/perfil', 'PerfilController');
+
+
+Auth::routes();
+
+Route::get('/paciente-controle', function (){
+    return 'Eu sou um paciente e a magia começa aqui...';
+});

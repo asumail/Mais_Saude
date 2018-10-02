@@ -7,7 +7,8 @@
                         <img src="{{ URL::asset('assets/images/profile-menu-image.png')}}" class="img-circle img-responsive" alt="">
                     </div>
                     <div class="sidebar-profile-details">
-                        <span>{{ Auth::user()->name }}<br><small>Administrador</small></span>
+                        <span>{{ Auth::user()->name }}<br>
+                            <small>{{ Auth::user()->grupo != 1 ? 'Administrador' : 'Us-Normal' }}</small></span>
                     </div>
                 </a>
             </div>
