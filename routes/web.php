@@ -21,37 +21,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
-
-Auth::routes();
-
 Route::get('/admin', 'HomeController@admin')->name('admin');
-
-Auth::routes();
-
-Route::resource('/empresas', 'SubEmpresaController');
-
-Auth::routes();
-
-Route::resource('/docspredefinidos', 'DocumentoPredefinidoController');
-
-Auth::routes();
-
-Route::resource('/diarios', 'DiarioController');
-
-Auth::routes();
-
-Route::resource('/lancamentos', 'LancamentoController');
-
-Auth::routes();
-
-Route::resource('/planocontas', 'PlanoContaController');
-
-Auth::routes();
-
-Route::resource('/superempresa', 'EmpresaController');
-
-Auth::routes();
 
 Route::resource('/perfil', 'PerfilController');
 
