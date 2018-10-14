@@ -31,3 +31,6 @@ Auth::routes();
 Route::get('/paciente-controle', function (){
     return 'Eu sou um paciente e a magia começa aqui...';
 });
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

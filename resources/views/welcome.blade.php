@@ -49,11 +49,11 @@
 							</div>
 							<div class="main-menubar d-flex align-items-center">
 								<nav class="hide">
-									<a href="#home">Home</a>
+									<a href="/">Home</a>
 									<a href="#service">Serviços</a>
 									<a href="#appoinment">Marcação de Consulta</a>
 									<a href="#consultant">Nossos Medicos</a>
-                                    <a href="{{ route('home') }}">
+                                    <a href="{{ route('login') }}">
                                             Login
                                         </a>
 

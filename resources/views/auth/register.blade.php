@@ -1,68 +1,77 @@
-@extends('layouts.login')
+@extends('layouts.app')
 
-
-<!--Css Local-->
-@section('cssLocal')
-
-@endsection
-
-
-<!--Conteudo Local-->
 @section('content')
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <div class="panel panel-default">
+                <div class="panel-heading">Register</div>
 
-    <div id="main-wrapper">
-        <div class="row">
-            <div class="col-md-3 center">
-                <div class="login-box">
-                    <a href="index.html" class="logo-name text-lg text-center">Modern</a>
-                    <p class="text-center m-t-md">Create a Modern's account</p>
-                    <form class="m-t-md" method="POST" action="{{ route('register') }}">
+                <div class="panel-body">
+                    <form class="form-horizontal" method="POST" action="{{ route('register') }}">
                         {{ csrf_field() }}
 
                         <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
-                            <input name="name" type="text" class="form-control" placeholder="Nome" required>
-                            @if ($errors->has('name'))
-                                <span class="help-block">
+                            <label for="name" class="col-md-4 control-label">Name</label>
+
+                            <div class="col-md-6">
+                                <input id="name" type="text" class="form-control" name="name" value="{{ old('name') }}" required autofocus>
+
+                                @if ($errors->has('name'))
+                                    <span class="help-block">
                                         <strong>{{ $errors->first('name') }}</strong>
                                     </span>
-                            @endif
+                                @endif
+                            </div>
                         </div>
+
                         <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
-                            <input name="email" type="email" class="form-control" placeholder="Email" required>
-                            @if ($errors->has('email'))
-                                <span class="help-block">
+                            <label for="email" class="col-md-4 control-label">E-Mail Address</label>
+
+                            <div class="col-md-6">
+                                <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}" required>
+
+                                @if ($errors->has('email'))
+                                    <span class="help-block">
                                         <strong>{{ $errors->first('email') }}</strong>
                                     </span>
-                            @endif
+                                @endif
+                            </div>
                         </div>
+
                         <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
-                            <input name="password" type="password" class="form-control" placeholder="Senha" required>
-                            @if ($errors->has('password'))
-                                <span class="help-block">
+                            <label for="password" class="col-md-4 control-label">Password</label>
+
+                            <div class="col-md-6">
+                                <input id="password" type="password" class="form-control" name="password" required>
+
+                                @if ($errors->has('password'))
+                                    <span class="help-block">
                                         <strong>{{ $errors->first('password') }}</strong>
                                     </span>
-                            @endif
+                                @endif
+                            </div>
                         </div>
+
                         <div class="form-group">
-                                <input id="password-confirm" type="password" class="form-control" name="password_confirmation" placeholder="Confirmar senha" required>
+                            <label for="password-confirm" class="col-md-4 control-label">Confirm Password</label>
+
+                            <div class="col-md-6">
+                                <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required>
+                            </div>
                         </div>
-                        <label>
-                            <input type="checkbox"> Termos e condições aplicaveis.
-                        </label>
-                        <button type="submit" class="btn btn-success btn-block m-t-xs">Submit</button>
-                        <p class="text-center m-t-xs text-sm">Ja possui uma conta?</p>
-                        <a href="{{route('login')}}" class="btn btn-default btn-block m-t-xs">Login</a>
+
+                        <div class="form-group">
+                            <div class="col-md-6 col-md-offset-4">
+                                <button type="submit" class="btn btn-primary">
+                                    Register
+                                </button>
+                            </div>
+                        </div>
                     </form>
-                    <p class="text-center m-t-xs text-sm">2018 &copy; Medical by MazasDaUEM.</p>
                 </div>
             </div>
-        </div><!-- Row -->
-    </div><!-- Main Wrapper -->
+        </div>
+    </div>
+</div>
 @endsection
-<!--Fim do Conteudo Local-->
-
-<!--Javascript Local-->
-@section('scripts')
-
-@endsection
-<!-- fim Javascript Local-->
